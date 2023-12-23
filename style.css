@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+}
+.content{
+    height: 93%;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+.left-side h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.left-side h2{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.right-side{
+    width: 50%;
+    border: 1px solid yellow;
+    background-color:blueviolet;
+}
+.slide-img{
+    height: 880px;
+    width: 800px;
+    margin-left: 100px;
+
+}
+.about{
+    padding-top: 100px;
+}
+.section1{
+    padding: 50px 100px;
+    background-color:blueviolet;
+    border-radius: 10px;
+}
+.section1 h1{
+    color: #D5C455;
+}
+.section2{
+    padding: 50px 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.section2 h1{
+    color: #D5C455;
+}
+.section3{
+    padding: 50px 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.section3 h1{
+    color: #D5C455;
+}
+.section4{
+    padding: 50px 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.section4 h1{
+    color: #D5C455;
+}
+span{
+    color: #D5C455;
+}
+.section6{
+    display: flex;
+}
+.service{
+    padding: 50px 0;
+}
+.service-section1{
+    padding: 70px 50px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: 1s;
+    color: white;
+}
+.service-section1:hover{
+    background-color: #D5C455;
+    color: white;
+}
+.form-txt{
+    border: 1px solid black;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+@media screen and (max-width:992px) {
+    .home{
+        height: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        padding: 20px;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .slide-img{
+        height: 500px;
+        width: 300px;
+        margin-left: 10px;
+    
+    }
+    .about{
+        padding-top: 30px;
+    }
+    .service{
+        padding: 20px 0;
+    }
+}
